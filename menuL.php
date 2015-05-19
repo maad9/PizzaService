@@ -1,6 +1,6 @@
 <div id="menu">
 	<div class="option">
-		<a href="index.php" style="text-decoration:none; color:white">Zamowienia</a>
+		<a href="getorders.php" style="text-decoration:none; color:white">Zamowienia</a>
 	</div>
 	<div class="option">
 		<a href=".php" style="text-decoration:none; color:white">O nas</a>

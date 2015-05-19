@@ -14,6 +14,7 @@
 			if($sql_users==1){
 				$sql_record = $sql_result->fetch_assoc();
 				$_SESSION['login'] = $sql_record['login'];
+				$_SESSION['company'] = $sql_record['company'];
 				$_SESSION['isconnected'] = true;
 				$sql_result->free_result();
 				header('Location: panel.php');

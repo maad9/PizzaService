@@ -12,7 +12,7 @@
 		<a href="login.php" style="text-decoration:none; color:white">Zaloguj</a>
 	</div>
 	<div class="option">
-		<a href=".php" style="text-decoration:none; color:white">Zarejestruj</a>
+		<a href="register.php" style="text-decoration:none; color:white">Zarejestruj</a>
 	</div>
 	<div style="clear:both"></div>
 </div>
