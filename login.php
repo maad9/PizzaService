@@ -49,7 +49,7 @@
 		?>	
 		</div>
 		<div id="footer">
-			Stopka. 2015-03-15 &copy; Wszelkie prawa zastrzeżone.
+			Stopka.&copy; Wszelkie prawa zastrzeżone.
 		</div>
 	</div>
 	

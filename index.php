@@ -7,7 +7,7 @@
 <head>
 	<meta charset="utf-8" />
 	<meta http-equiv="X-UA-Compatible"content="IE=edge,chrome=1" />
-	<title>Dungeon Editor</title>
+	<title>Pizza Service</title>
 	<link rel="stylesheet" href="style.css" type="text/css"/>
 	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
 </head>
@@ -36,21 +36,10 @@
 			<div style="clear:both"></div>		
 		</div>-->  
 		<div id="content">
-			2015-03-15<br/>
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			<br/><br/>
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
-			Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text Testowy text 
+			Strona glowna
 		</div>
 		<div id="footer">
-			Stopka. 2015-03-15 &copy; Wszelkie prawa zastrzeżone.
+			Stopka. &copy; Wszelkie prawa zastrzeżone.
 		</div>
 	</div>
 	
