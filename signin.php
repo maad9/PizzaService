@@ -20,7 +20,7 @@
 			}
 			else{
 				$_SESSION['failure']='<spqn style="color:red">Wrong login or password!</span>';
-				header('Location: login.php');
+				header('Location: panel.php');
 			}
 		}
 		
