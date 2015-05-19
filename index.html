@@ -1,0 +1,33 @@
+<?php
+	session_start();
+?>
+
+<!DOCTYPE HTML>
+<html lang="pl">
+<head>
+	<meta charset="utf-8"/>
+	<title> Pizza Service </title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+	<div id="containter">
+		<div id="logo">
+			LOGO
+		</div>
+		<?php
+			if(isset(&_SESSION['isconnected'])){
+				include("menuL.php");
+			}
+			else
+				include("menuNL.php");
+		?>
+		<div id="content">
+			text
+		</div>
+		<div id"footer">
+			Stopka &copy; Wszelkie prawa zastrzezone.
+		</div>
+	</div>
+</body>
+</html>
