@@ -1,6 +1,6 @@
 <?php
-	$host = "localhost";
-	$db_user = "root";
-	$db_password = "";
-	$db_name = "pizzaservice";
+	$host = "db.zut.edu.pl";
+	$db_user = "kp29750";
+	$db_password = "BRaVAHWy";
+	$db_name = "pizzas";
 ?>

@@ -1,16 +1,16 @@
 <div id="menu">
 	<div class="option">
-		<a href="getorders.php" style="text-decoration:none; color:white">Zamowienia</a>
+		<a href="getorders2.php" style="text-decoration:none; color:white">Zamowienia</a>
 	</div>
 	<div class="option">
-		<a href=".php" style="text-decoration:none; color:white">O nas</a>
+		<a href="archive2.php" style="text-decoration:none; color:white">Archiwum</a>
 	</div>
-	<div class="option">
+	<!--<div class="option">
 		<a href="download.php" style="text-decoration:none; color:white">Kontakt</a>
 	</div>			
 	<div class="option">
 		<a href="panel.php" style="text-decoration:none; color:white">Panel uzytkownika</a>
-	</div>
+	</div>-->
 	<div class="option">
 		<a href="logout.php" style="text-decoration:none; color:white">Wyloguj <?php echo $_SESSION['login']; ?></a>
 	</div>

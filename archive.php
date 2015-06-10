@@ -7,7 +7,7 @@
 	}
 	else{
 		//$company = $_SESSION['company'];
-		$sql_query = "SELECT * FROM orders";
+		$sql_query = "SELECT * FROM archive";
 		$result = $connection->query($sql_query);
 
 		$_SESSION['orders'] = array();
@@ -15,9 +15,8 @@
 		//echo 'Adres ';
 		//echo 'Telefon '."<br>";
 		if($result->num_rows > 0){
-			echo "ID | TYP | INFO | LOKACJA"."<br>";
+			echo "ID | TYP | INFO | COMPLETED"."<br>";
 			while($row = $result->fetch_assoc()){
-				echo '<form action="delete.php" method="post">';
 				echo $row['ID']." | ";
 				if($row['TYPE'] == 0)
 					echo 'Ostra | ';
@@ -27,10 +26,12 @@
 					echo '4 Sery | ';
 				if($row['TYPE'] == 3)
 					echo 'Hawajska | ';
-				echo $row['INFO']."| ";
-				echo $row['LOCATION']." ";
-				echo '<input type="submit" name="ID" value="'.$row['ID'].'"/>';
-				echo '</form>';
+				echo $row['INFO']." | ";
+				//echo '<form action="delete.php" method="post">';
+				echo $row['LOCATION']." | ";
+				echo $row['COMPLETED']."<br>";
+				//echo '<input type="submit" name="submit1" value="delete"/>';
+				//echo '<input type="submit" name="ID" value="'.$row['ID'].'"/>';
 			}
 		}
 		$connection->close();
