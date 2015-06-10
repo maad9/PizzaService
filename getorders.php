@@ -14,7 +14,9 @@
 
 		if($result->num_rows > 0){
 			while($row = $result->fetch_assoc()){
-				echo $row['typ']."<br>";
+				echo $row['typ'].";";
+				echo $row['adres'].";";
+				echo $row['telefon'].'<input type="submit" value="Usun"/>'."<br>";
 			}
 		}
 		$connection->close();
