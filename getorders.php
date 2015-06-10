@@ -15,20 +15,40 @@
 		//echo 'Adres ';
 		//echo 'Telefon '."<br>";
 		if($result->num_rows > 0){
-			echo "ID | TYP | INFO | LOKACJA"."<br>";
+			echo '<div class="column">';
+			echo "ID";
+			echo '</div>';
+			echo '<div class="column">';
+                        echo "TYP";
+                        echo '</div>';
+			echo '<div class="column">';
+                        echo "INFO";
+                        echo '</div>';
+			echo '<div class="column">';
+                        echo "LOKALIZACJA";
+                        echo '</div>';
+			echo "<br>";
 			while($row = $result->fetch_assoc()){
 				echo '<form action="delete.php" method="post">';
-				echo $row['ID']." | ";
+				echo '<div class="column">';
+				echo $row['ID'];
+				echo '</div>';
+				echo '<div class="column">';
 				if($row['TYPE'] == 0)
-					echo 'Ostra | ';
+					echo 'Ostra';
 				if($row['TYPE'] == 1)
-					echo 'Pepperoni | ';
+					echo 'Pepperoni';
 				if($row['TYPE'] == 2)
-					echo '4 Sery | ';
+					echo '4 Sery';
 				if($row['TYPE'] == 3)
-					echo 'Hawajska | ';
+					echo 'Hawajska';
+				echo '</div>';
+				echo '<div class="column">';
 				echo $row['INFO']."| ";
+				echo '</div>';
+				echo '<div class="column">';
 				echo $row['LOCATION']." ";
+				echo '</div>';
 				echo '<input type="submit" name="ID" value="'.$row['ID'].'"/>';
 				echo '</form>';
 			}
